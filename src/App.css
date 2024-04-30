@@ -1,0 +1,25 @@
+.card-title {
+  height: 3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+}
+
+.card-text {
+  height: 5rem;
+  overflow: hidden;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link.active {
+  color: red !important;
+}
